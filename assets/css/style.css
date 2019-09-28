@@ -83,6 +83,7 @@ footer{
     background-color: #777;
     border-top: #4aaaa5 7px solid;
     color: #ccc;
+    font-size: 10px;
     padding-top: 30px;
     text-align: center;
 }
@@ -122,7 +123,7 @@ h1, h2{
 img{
     border: #ddd 1px solid;
     box-shadow:5px 5px 8px #ddd;
-    margin: 0px 10px 10px 0px;
+    margin: 0px 20px 20px 0px;
 }
 
 input[type=submit]{
