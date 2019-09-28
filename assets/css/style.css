@@ -42,6 +42,7 @@ padding: 20px;
 .image-banner{
     background-color: #4aaaa5;
     color: #fff;
+    left: 1px;
     padding: 10px 0px;
     position: relative;
     text-align: center;
@@ -67,8 +68,8 @@ padding: 20px;
 }
 
 .portfolio-image, img{
-    height: 200px;
-    width: 200px;
+    height: 202px;
+    width: 202px;
 }
 
 body{
