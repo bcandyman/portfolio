@@ -3,10 +3,15 @@
 }
 
 
-a:hover{
+.nav-link:hover{
     background-color: #4aaaa5;
     border-radius: 2px;
     color: #fff!important;  /*Could not figure out how to change color without using !important here-->*/
+}
+
+
+.portfolio-image:hover{
+    text-decoration: none;
 }
 
 
@@ -64,12 +69,15 @@ padding: 20px;
     display: block;
     margin: auto;    
     margin-bottom: 20px;
-
 }
 
 .portfolio-image, img{
     height: 202px;
     width: 202px;
+}
+
+a:hover{
+    text-decoration: none ;
 }
 
 body{
@@ -133,3 +141,4 @@ input[type=submit]{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
