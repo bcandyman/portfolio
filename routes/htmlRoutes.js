@@ -18,6 +18,6 @@ module.exports = (app) => {
 
   // Render 404 page for any unmatched routes
   app.get('*', (req, res) => {
-    res.sendFile(path(__dirname, '/../404'));
+    res.sendFile(path.join(__dirname, '/../views/404.html'));
   });
 };
