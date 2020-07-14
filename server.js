@@ -1,4 +1,5 @@
 const express = require('express');
+const htmlroutes = require('./routes/htmlRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -9,9 +10,9 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // Routes
-require('./routes/htmlRoutes')(app);
+app.use(htmlroutes);
 
-// Starting the server, syncing our models ------------------------------------/
+// Starting the server
 app.listen(PORT, () => {
   console.log('==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.', PORT, PORT);
 });
