@@ -14,8 +14,8 @@ apiRoutes.post('/send', (req, res) => {
   };
 
   mailer.sendMail(sendParams)
-    .then(() => res.sendFile('contact'))
-    .catch(err => (res.send('error')));
+    .then(() => res.sendStatus(200))
+    .catch((err) => (res.send(err)));
 });
 
 module.exports = apiRoutes;
