@@ -1,4 +1,4 @@
-const htmlRoutes = require('express').Router()
+const htmlRoutes = require('express').Router();
 const path = require('path');
 
 // Load index page
