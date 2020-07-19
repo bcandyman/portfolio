@@ -54,22 +54,24 @@
 
         <div class="row">
           <div class="col-12">
-            <form>
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" class="form-control mb-3" id="contact-name" placeholder="John Smith">
-
-              <label for="contact-email">Email</label>
-              <input type="email" class="form-control mb-3" id="contact-email" placeholder="example@domain.com">
-
-              <label for="contact-message">Message</label>
-              <textarea class="form-control" id="contact-message" rows="8"></textarea>
-              <button type="submit" class="btn btn-secondary my-3" id="contact-submit">Submit</button>
+            <form id='contact-form'>
+              <label for="name">Name</label>
+              <input type="text" class="form-control mb-3" name='name' placeholder="John Smith">
+              <label for="email">Email</label>
+              <input type="email" class="form-control mb-3" name="email"
+                placeholder="example@domain.com">
+              <label for="message">Message</label>
+              <textarea class="form-control" name="message" rows="8"></textarea>
+              <button type="submit" class="btn btn-secondary my-3">Submit</button>
             </form>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/contact.js"></script>
 </body>
 
 </html>
